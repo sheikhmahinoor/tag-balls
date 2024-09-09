@@ -1,0 +1,54 @@
+
+
+
+.circle1,
+.circle2,
+.circle3 {
+  background-image: url(492_html5.jpg);
+  background-size: calc(120%);
+  width:6rem;
+  height: 6rem;
+  border: none;
+  border-radius: 50%;
+  box-shadow: inset 2px 4px 15px 0px #0b0b0b;
+  animation: bounceinup;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounceinup {
+  0% {
+    background-position: 1 1;
+  }
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translatey(20px);
+  }
+  70% {
+    opacity: 1;
+    transform: translatey(17px);
+  }
+  90% {
+    transform: translatey(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0px);
+    background-position: -550px;
+  }
+}
+.circle2 {
+  background-image: url(bb.jpeg);
+  background-size: calc(70%);
+}
+.circle3 {
+  background-image: url(JavaScript-Logo.png);
+  background-size: calc(110%);
+}
